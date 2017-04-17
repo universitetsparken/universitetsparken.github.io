@@ -1,0 +1,16 @@
+# Site settings
+title: "G/F Universitetsparken"
+description: "Grundejerforeningen for området ved Tinbergens Alle"
+baseurl: ""
+url: ""
+
+# Paginate
+paginate: 5
+paginate_path: "/page/:num"
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+gems: [jekyll-paginate]
+exclude: [Gemfile, Gemfile.lock, README.md]

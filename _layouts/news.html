@@ -1,0 +1,15 @@
+---
+layout: default
+title: Home
+paginate:
+  collection: posts
+  per_page: 5
+  limit: 5
+  permalink: /page/:num/
+---
+<section class="posts">
+  {% for post in paginator.posts %}
+    {% include article.html %}
+  {% endfor %}
+  {% include pagination.html %}
+</section>

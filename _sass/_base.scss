@@ -1,0 +1,172 @@
+/* base.css */
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  border-top: 3px solid $base-color-light;
+  background: $bg-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: .01em;
+}
+
+body,
+input,
+select,
+textarea {
+  color: $text-color;
+  font-family: $font-default;
+  font-size: $font-base-size;
+  font-weight: $font-weight-default;
+  line-height: $line-height-base;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 2px solid $text-color-light;
+
+  &:hover {
+    transition: border-bottom .3s linear;
+    border-bottom: 2px solid $link-color-hover;
+  }
+}
+
+strong {
+  font-weight: $font-weight-bold;
+}
+
+em {
+  font-style: italic;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+img {
+  display: block;
+  margin: 0 0 .6em;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-bold;
+  line-height: 1em;
+  margin: 1.5em 0 0.5em 0;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    border: none;
+  }
+
+  a:hover {
+    color: inherit;
+    text-decoration: none;
+    border: none;
+  }
+
+  small {
+    font-size: 60%;
+  }
+}
+
+@include large {
+  h1 { font-size: $heading-base-size; }
+  h2 { font-size: $heading-base-size*0.85; }
+  h3 { font-size: $heading-base-size*0.65; }
+  h4 { font-size: $heading-base-size*0.55; }
+  h5 { font-size: $heading-base-size*0.45; }
+  h6 { font-size: $heading-base-size*0.40; }
+}
+
+@include medium {
+  h1 { font-size: $heading-base-size*0.9; }
+  h2 { font-size: $heading-base-size*0.75; }
+  h3 { font-size: $heading-base-size*0.55; }
+  h4 { font-size: $heading-base-size*0.45; }
+  h5 { font-size: $heading-base-size*0.35; }
+  h6 { font-size: $heading-base-size*0.30; }
+}
+
+@include small {
+  h1 { font-size: $heading-base-size*0.8; }
+  h2 { font-size: $heading-base-size*0.65; }
+  h3 { font-size: $heading-base-size*0.45; }
+  h4 { font-size: $heading-base-size*0.35; }
+  h5 { font-size: $heading-base-size*0.25; }
+  h6 { font-size: $heading-base-size*0.20; }
+}
+
+hr {
+  border: 0;
+  border-bottom: solid 1px $text-color-light;
+  margin: 2em 0;
+
+  &.major {
+    margin: 3em 0;
+  }
+}
+
+blockquote {
+  border-left: solid 4px $base-color-light;
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+q, blockquote {
+  small {
+    font-size: 60%;
+  }
+}
+
+q {
+  quotes: "«" "»";
+
+  &:before {
+    content: open-quote;
+  }
+  &:after {
+    content: close-quote;
+  }
+}
+
+code {
+  background: none;
+  border-radius: 0;
+  border: none;
+  font-family: $font-code;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0 5px;
+  // color: $code-color;
+  background-color: $bg-color-code;
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: $font-code;
+  font-size: 0.9em;
+  margin: 0;
+  code {
+    line-height: 1.75em;
+  }
+}

@@ -1,0 +1,44 @@
+/* variables.css */
+
+// Breakpoints
+$large-breakpoint: 64em !default;
+$medium-breakpoint: 42em !default;
+
+// Fonts
+$font-default: Helvetica, sans-serif !default;
+$font-code: "Courier New", monospace !default;
+$font-base-size: 16px !default;
+$font-weight-default: 400 !default;
+$font-weight-bold: 700 !default;
+$line-height-base: 1.6 !default;
+$heading-base-size: 2.2rem;
+
+// Colors
+$base-color-light: #A2D729 !default;
+$base-color-dark: #342E37 !default;
+$text-color: #444 !default;
+$text-color-light: #999 !default;
+$link-color: #444 !default;
+$link-color-hover: #D55D4E !default;
+$code-color: #ddd !default;
+$bg-color: #FAFFFD !default;
+$bg-color-code: #ddd !default;
+
+// Define media size
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}

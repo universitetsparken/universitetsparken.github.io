@@ -1,0 +1,29 @@
+---
+layout: default
+title: Velkommen
+---
+<section class="page">
+<h1>Velkommen</h1>
+<p>
+G/F Universitetsparken er grundejerforeningen for området ved Tinbergens Alle. Boligerne i området er en blanding af Villaer, rækkehuse og kædehuse – senere også lejligheder. Grundejerforeningen er for alle grundejere på Tinbergens Alle. Foreningen varetager de forskellige fælles forpligtigelser og opgaver – så som vedligeholdelse af området, snerydning, belysning mm.
+</p>
+<p>
+Foreningen blev startet op i sommern 2015. Er der spørgsmål til forningen er du velkommen til at kontakte bestyrelsen – find kontaktoplysninger på <a href="{{ "/kontakt" | prepend: site.baseurl }}">kontakt siden</a>
+</p>
+<p>
+Der er mere information og links til information om området på siden <a href="{{ "/info" | prepend: site.baseurl }}">nyttig information</a>. Her kan du også finde kontaktoplysninger til de forskellige leverandøre og håndværker vi bruger i foreningen.
+</p>
+<p>
+…og til nye medlemmer af foreningen – velkommen til :-)
+</p>
+</section>
+<section class="posts-heading">
+<h1>Nyheder</h1>
+<hr />
+</section>
+<section class="posts">
+  {% for post in paginator.posts %}
+    {% include article.html %}
+  {% endfor %}
+  {% include pagination.html %}
+</section>
