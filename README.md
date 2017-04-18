@@ -10,12 +10,12 @@ Markdown formatet, kan sammenlignes med en simpel form for HTML. Måden du forma
 
 ## Referater
 Referater (i pdf-format) uploades til dokumenter/referater/ i formatet:
-YYYY.MM.DD-Dokumentnavn.pdf
+`YYYY.MM.DD-Dokumentnavn.pdf`
 
 
 ## Nyheder
 Nyheder oprettes i mappen _post og navngives efter følgende skabelon:
-YYYY-MM-DD-overskrift-paa-siden.md
+`YYYY-MM-DD-overskrift-paa-siden.md`
 
 **BEMÆRK**: Filerne oprettes med .md som fil-endelse.
 
