@@ -168,6 +168,18 @@
         transition: color .25s linear;
     }
   }
+  svg#feed {
+    width: auto;
+    @include large {
+      height: $font-base-size*1.6;
+    }
+    @include medium {
+      height: $font-base-size*1.3;
+    }
+    @include small {
+      height: $font-base-size*1.1;
+    }
+  }
 }
 
 .post-meta {
