@@ -5,5 +5,4 @@
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
 <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
-
-
+<link rel="alternate" type="application/rss+xml" title="Universitetsparken" href="{{ "/feed.xml" | prepend: site.baseurl }}"/>
