@@ -13,4 +13,4 @@ markdown: kramdown
 sass:
   style: compressed
 gems: [jekyll-paginate]
-exclude: [Gemfile, Gemfile.lock, README.md]
+exclude: [Gemfile, Gemfile.lock, README.md,CNAME]
