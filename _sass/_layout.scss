@@ -59,6 +59,15 @@
   }
 }
 
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
 .top-heading {
   span {
     color: $text-color-light;
@@ -141,8 +150,16 @@
   text-align: center;
   margin: 2em 0;
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+
   li {
-    padding: 0 .4em;
+    padding: 0 .3em;
   }
 
   li, a, span {
@@ -156,7 +173,6 @@
 
   span {
     color: $text-color-light;
-    font-style: italic;
   }
   svg {
       vertical-align: text-bottom;
@@ -168,7 +184,12 @@
         transition: color .25s linear;
     }
   }
-  svg#feed {
+  .icon {
+    width: 1.2em;
+    height: 1.2em;
+  }
+  .icon-rss-squared {
+    margin-top: 1em;
     width: auto;
     @include large {
       height: $font-base-size*1.6;
@@ -185,11 +206,11 @@
 .post-meta {
   color: $text-color-light;
   font-size: 0.8em;
-  svg {
-    vertical-align: text-bottom;
-  }
   margin: 0;
   padding: 0;
+  svg {
+    vertical-align: text-top;
+  }
 }
 
 .posts-heading {
@@ -271,4 +292,9 @@
     font-size: $font-base-size*1.5;
     margin-top: 3rem;
   }
+}
+
+footer {
+  background: #ccc;
+  border-top: 1px solid $base-color-dark;
 }
