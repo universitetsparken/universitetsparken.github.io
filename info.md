@@ -4,10 +4,6 @@ title: Nyttig information
 permalink: /info/
 ---
 
-## Billetter til nybyggerne
-
-Bestil billet: [Nybyggerne Åbent Hus](https://billetto.dk/en/e/nybyggerne-saeson-3-abent-hus-tickets-179920)
-
 ## Byggeri, status (marts, 2017)
 
 * Asfalt på stierne mangler stadig at blive lavet – det bliver nok først når der bliver lidt varmere
