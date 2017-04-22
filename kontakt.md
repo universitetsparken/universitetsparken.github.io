@@ -13,7 +13,3 @@ __Foreningens bestyrrelse__ (Bemærk: Der er ny bestyrrelse på vej)
 
 Mail til *formanden* kan sendes til [formand@universitetsparken.dk](mailto://formand@universitetsparken.dk)  
 Mail til *hele bestyrelsen* kan sendes til [bestyrelsen@universitetsparken.dk](mailto://bestyrelsen@universitetsparken.dk)
-
-
-
-
