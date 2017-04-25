@@ -175,13 +175,14 @@
     color: $text-color-light;
   }
   svg {
-      vertical-align: text-bottom;
+    vertical-align: text-bottom;
+    color: $text-color-light;
   }
   a {
-      border: none;
+    border: none;
     &:hover {
-        color: $link-color-hover;
-        transition: color .25s linear;
+      color: $link-color-hover;
+      transition: color .25s linear;
     }
   }
   .icon {
@@ -189,7 +190,6 @@
     height: 1.2em;
   }
   .icon-rss-squared {
-    margin-top: 1em;
     width: auto;
     @include large {
       height: $font-base-size*1.6;
@@ -301,7 +301,12 @@
   }
 }
 
-footer {
-  background: #ccc;
-  border-top: 1px solid $base-color-dark;
+a.facebook {
+  background: transparent url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 37 32'><path d='M25.92 2.272q0.608 0 1.056 0.448t0.448 1.088v24.384q0 0.64-0.448 1.088t-1.056 0.448h-6.976v-10.656h3.552l0.512-4.128h-4.064v-2.656q0-0.992 0.416-1.472t1.632-0.512l2.176-0.032v-3.68q-1.12-0.16-3.2-0.16-2.4 0-3.872 1.408t-1.44 4.064v3.040h-3.584v4.128h3.584v10.656h-13.152q-0.608 0-1.056-0.448t-0.448-1.088v-24.384q0-0.64 0.448-1.088t1.056-0.448h24.416z'/></svg>") center right no-repeat;
+  padding-right: 1.6em;
+}
+
+.icon-emo-happy {
+  vertical-align: text-bottom;
+  margin-left: 0.2em;
 }
