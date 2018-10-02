@@ -4,7 +4,7 @@ title: Referater
 permalink: /referater/
 ---
 
-Referater fra møder og generalforsamlinger.
+Referater fra generalforsamlinger.
 
 <div class="ref-list">
 <ul>
