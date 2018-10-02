@@ -5,11 +5,11 @@ permalink: /kontakt/
 ---
 ### Foreningens bestyrrelse
 
-* Jane Bak Birkmose (Formand) -- Tinbergens Alle 24
+* Lise Lotte Lund (Formand) -- Tinbergens Alle 22
 * Brian Overby -- Tinbergens Alle 28
 * Lars Boye-Hansen -- Tinbergens Alle 12
-* Ole Skovrider -- Tinbergens Alle 15-25
 * Janne Holm Nielsen -- Tinbergens Alle 103
+* Jesper Strandbech -- Tinbergens Alle 83
 
 
 Mail til *formanden* kan sendes til <formand@universitetsparken.dk>{: class="email"}  
