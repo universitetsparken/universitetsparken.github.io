@@ -9,8 +9,7 @@ permalink: /kontakt/
 * Brian Overby -- Tinbergens Alle 28
 * Lars Boye-Hansen -- Tinbergens Alle 12
 * Janne Holm Nielsen -- Tinbergens Alle 103
-* Jesper Strandbech -- Tinbergens Alle 83
-
+* Maria Bøgeskov Søttrup -- Tinbergens Alle 105 
 
 Mail til *formanden* kan sendes til <formand@universitetsparken.dk>{: class="email"}  
 Mail til *hele bestyrelsen* kan sendes til <bestyrelsen@universitetsparken.dk>{: class="email"}
