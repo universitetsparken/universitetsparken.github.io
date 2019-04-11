@@ -5,11 +5,11 @@ permalink: /kontakt/
 ---
 ### Foreningens bestyrrelse
 
-* Lise Lotte Lund (Formand) -- Tinbergens Alle 22
+* Jonas Jacobsen (Formand) -- Seiferts Alle
 * Brian Overby -- Tinbergens Alle 28
 * Lars Boye-Hansen -- Tinbergens Alle 12
-* Janne Holm Nielsen -- Tinbergens Alle 103
-* Maria Bøgeskov Søttrup -- Tinbergens Alle 105 
+* Sune Damsig Sørensen -- Seiferts Alle
+* Inger Brøner -- Tinbergens Alle 26
 
 Mail til *formanden* kan sendes til <formand@universitetsparken.dk>{: class="email"}  
 Mail til *hele bestyrelsen* kan sendes til <bestyrelsen@universitetsparken.dk>{: class="email"}
