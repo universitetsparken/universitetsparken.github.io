@@ -5,10 +5,10 @@ permalink: /kontakt/
 ---
 ### Foreningens bestyrrelse
 
-* Jonas Jacobsen (Formand) -- Seiferts Alle
+* Jonas Jacobsen (Formand) -- Seiferts Alle 27
 * Brian Overby -- Tinbergens Alle 28
 * Lars Boye-Hansen -- Tinbergens Alle 12
-* Sune Damsig Sørensen -- Seiferts Alle
+* Sune Damsig Sørensen -- Seiferts Alle 25
 * Inger Brøner -- Tinbergens Alle 26
 
 Mail til *formanden* kan sendes til <formand@universitetsparken.dk>{: class="email"}  
