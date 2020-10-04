@@ -13,7 +13,7 @@ Kabel-TV + Internet i området er leveret af [Nørre Tranders Antenneforening](h
 Gældende lokalplaner for området: [4-4-114](http://apps.aalborgkommune.dk/images/teknisk/PLANBYG/lokplan/04/4-4-114.pdf) samt [4-4-102](http://apps.aalborgkommune.dk/images/teknisk/PLANBYG/lokplan/04/4-4-102.pdf) (sidstnævnte alene fsva. Punkt 11 - Grundejerforening) -- men følg med på Aalborg Kommunes hjemmeside -- [her er gældende lokalplaner for kommunen og startredegørelser](http://aalborgkommune.viewer.dkplan.niras.dk/plan/5#/) (kommende lokalplaner). Yderligere bestemmelser kan du finde ved at logge på [tinglysning.dk](https://www.tinglysning.dk) med dit NemID -- her kan du finde de vedtægter, der gælder ud over det, der står i lokalplanen.
 
 ## Vedtægter
-
+[Vedtægter for grundejerforeningen Universitetsparken](/dokumenter/diverse/Vedtægter_Grundejerforeningen_Universitetsparken.pdf)
 
 ## Leverandører
 Er din bolig bygget af 2E og har du spørgsmål til dem, så kan du finde dem på [2E kontakt](http://2eboligprojektsalg.dk/kontakt).
